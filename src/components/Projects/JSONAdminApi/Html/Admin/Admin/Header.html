@@ -1,0 +1,56 @@
+<header class="mb-3">
+    <div id="NavBarId" class="px-2 py-2 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto  justify-content-center  text-small">
+                 
+                 
+                 
+                    <li>
+                        <a href="./Admin/Menu.html" class="nav-link text-white">
+                            <svg class="bi d-block mx-auto mb-1" width="20" height="20">
+                                <path
+                                    d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM8 .989c.127 0 .253.049.35.145l6.516 6.516a.495.495 0 0 1 0 .7L8.35 14.866a.493.493 0 0 1-.35.145V.989z" />
+                            </svg>
+                            PreLoad
+                        </a>
+                    </li>
+
+                  
+                    <li id="HeaderLoginButtonId">
+                        <a href="#" class="nav-link text-white" onclick="jVarGlobalClientObject.UI.ModalFuncs.Show()">
+                            <svg class="bi d-block mx-auto mb-1" width="20" height="20" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6.146-2.854a.5.5 0 0 1 .708 0L14 6.293l1.146-1.147a.5.5 0 0 1 .708.708L14.707 7l1.147 1.146a.5.5 0 0 1-.708.708L14 7.707l-1.146 1.147a.5.5 0 0 1-.708-.708L13.293 7l-1.147-1.146a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                            Login
+                        </a>
+                    </li>
+                    <li id="HeaderUserIdLi" class="visually-hidden">
+                        <a href="#" id="HeaderUserIdDropDown" data-bs-toggle="dropdown" aria-expanded="false"
+                            class="nav-link text-white dropdown-toggle">
+                            <svg class="bi d-block mx-auto mb-1" width="20" height="20" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                            UserName
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="HeaderUserIdDropDown">
+                            <li><a class="dropdown-item" href="#"
+                                    onclick="jVarGlobalClientObject.UI.ModalFuncs.Show()"><i class="bi bi-power"
+                                        style="font-size: 1.3rem; color:orangered"></i>
+                                    logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
